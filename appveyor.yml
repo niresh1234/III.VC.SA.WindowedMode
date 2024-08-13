@@ -19,7 +19,7 @@ before_package:
     release.bat
 artifacts:
 - path: data/III.VC.SA.WindowedMode.zip
-  name: III.VC.SA.WindowedMode-v0.{build}.zip
+  name: III.VC.SA.WindowedMode-v0.2.zip
 deploy:
 - provider: GitHub
   tag: v$(appveyor_build_version)
@@ -27,4 +27,4 @@ deploy:
   description: '- [Readme](https://github.com/niresh1234/III.VC.SA.WindowedMode/blob/master/README.md)'
   auth_token:
     secure: EwVN+VFM4Zs+LlEv5iFjFwMudb8F3ZAl37yLr53vIcIfTUvqV7VMWXtc9A7JTelg
-  artifact: III.VC.SA.WindowedMode-v0.{build}.zip
+  artifact: III.VC.SA.WindowedMode-v0.2.zip
