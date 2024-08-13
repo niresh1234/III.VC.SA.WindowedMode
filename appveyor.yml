@@ -24,7 +24,7 @@ deploy:
 - provider: GitHub
   tag: v$(appveyor_build_version)
   release: III.VC.SA.WindowedMode v$(appveyor_build_version)
-  description: '- [Readme](https://github.com/niresh1234/III.VC.SA.WindowedMode/README.md)'
+  description: '- [Readme](https://github.com/niresh1234/III.VC.SA.WindowedMode/blob/master/README.md)'
   auth_token:
-    secure: B4W2lhnkBz6G0LfGvV80BhaGTfyZxAQIPrnY8tPAdYVeaErJabODQ9RlDw5zCxxE
+    secure: EwVN+VFM4Zs+LlEv5iFjFwMudb8F3ZAl37yLr53vIcIfTUvqV7VMWXtc9A7JTelg
   artifact: III.VC.SA.WindowedMode.zip
