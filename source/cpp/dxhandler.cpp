@@ -228,7 +228,7 @@ void CDxHandler::AdjustPresentParams(D3D_TYPE* pParams)
     }
     else // full screen
     {
-        SetWindowPos(*hGameWnd, HWND_NOTOPMOST, 0, 0, nClientWidth, nClientHeight, SWP_NOACTIVATE | SWP_NOMOVE);
+        SetWindowPos(*hGameWnd, HWND_NOTOPMOST, 0, 0, nClientWidth, nClientHeight, SWP_NOACTIVATE);
     }
 
     bStopRecursion = bOldRecursion;
