@@ -1,4 +1,4 @@
-version: 1.{build}
+version: 0.{build}
 skip_tags: true
 max_jobs: 1
 image: Visual Studio 2017
@@ -26,5 +26,5 @@ deploy:
   release: III.VC.SA.WindowedMode v$(appveyor_build_version)
   description: '- [Readme](https://github.com/ThirteenAG/III.VC.SA.WindowedMode/blob/v1.0/README.md)'
   auth_token:
-    secure: SXMI7bm5RKh5j1S8A8dnUP2HFw97xHHlJH+mA0hx819vtxOPCpMFY3aFZ+2v16ri
+    secure: ZKssQkW3NX4DF6cHuUdBvsH6bwvD7ga+MncCvxoMKl+aV3QQfXmgcomcqvJKZ4qC
   artifact: III.VC.SA.WindowedMode.zip
